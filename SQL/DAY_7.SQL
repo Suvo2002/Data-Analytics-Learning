@@ -34,9 +34,8 @@ INSERT INTO orders VALUES
 (104, 3, 'Monitor', 12000),
 (105, 5, 'Mouse', 800);
 
--- ==========================================
 -- INNER JOIN Examples
--- ==========================================
+
 
 -- 1. Show customer name with product purchased
 SELECT c.customer_name, o.product
