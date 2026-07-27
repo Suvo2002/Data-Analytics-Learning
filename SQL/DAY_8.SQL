@@ -42,8 +42,8 @@ INSERT INTO orders VALUES
 
 -- Show all customers and their orders
 SELECT c.customer_name,
-       o.product,
-       o.amount
+    o.product,
+    o.amount
 FROM customers c
 LEFT JOIN orders o
 ON c.customer_id = o.customer_id;
@@ -61,15 +61,15 @@ WHERE o.order_id IS NULL;
 
 -- Show all orders and matching customers
 SELECT c.customer_name,
-       o.product,
-       o.amount
+    o.product,
+    o.amount
 FROM customers c
 RIGHT JOIN orders o
 ON c.customer_id = o.customer_id;
 
 -- Orders with no matching customer
 SELECT o.order_id,
-       o.product
+    o.product
 FROM customers c
 RIGHT JOIN orders o
 ON c.customer_id = o.customer_id
@@ -81,20 +81,20 @@ WHERE c.customer_id IS NULL;
 
 -- Show every customer and every order
 SELECT c.customer_name,
-       o.product,
-       o.amount
+    o.product,
+    o.amount
 FROM customers c
 FULL OUTER JOIN orders o
 ON c.customer_id = o.customer_id;
 
 -- Rows with no matching record
 SELECT c.customer_name,
-       o.product
+    o.product
 FROM customers c
 FULL OUTER JOIN orders o
 ON c.customer_id = o.customer_id
 WHERE c.customer_id IS NULL
-   OR o.customer_id IS NULL;
+OR o.customer_id IS NULL;
 
 -- ==========================================
 -- Practice Queries
@@ -102,7 +102,7 @@ WHERE c.customer_id IS NULL
 
 -- 1. List all customers and purchased products
 SELECT c.customer_name,
-       o.product
+    o.product
 FROM customers c
 LEFT JOIN orders o
 ON c.customer_id = o.customer_id;
@@ -116,7 +116,7 @@ WHERE o.customer_id IS NULL;
 
 -- 3. Find orders without a valid customer
 SELECT o.order_id,
-       o.product
+    o.product
 FROM customers c
 RIGHT JOIN orders o
 ON c.customer_id = o.customer_id
