@@ -56,7 +56,7 @@ ON e.manager_id = m.emp_id;
 
 
 -- CROSS JOIN
--- ==========================================
+
 
 -- Create Projects Table
 CREATE TABLE projects (
