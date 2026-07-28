@@ -58,7 +58,6 @@ ON e.manager_id = m.emp_id;
 -- CROSS JOIN
 
 
--- Create Projects Table
 CREATE TABLE projects (
     project_id INT PRIMARY KEY,
     project_name VARCHAR(50)
