@@ -80,7 +80,7 @@ SELECT COUNT(*) AS total_combinations
 FROM employees
 CROSS JOIN projects;
 
--- ==========================================
+
 -- Practice Queries
 -- ==========================================
 
