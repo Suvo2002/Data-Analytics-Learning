@@ -83,7 +83,7 @@ CROSS JOIN projects;
 
 
 
--- Employee and their manager
+
 SELECT
     e.emp_name,
     m.emp_name AS manager
