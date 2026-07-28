@@ -91,7 +91,7 @@ FROM employees e
 LEFT JOIN employees m
 ON e.manager_id = m.emp_id;
 
--- Employees managed by Sourav
+
 SELECT
     e.emp_name
 FROM employees e
