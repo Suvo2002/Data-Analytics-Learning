@@ -82,7 +82,7 @@ CROSS JOIN projects;
 
 
 -- Practice Queries
--- ==========================================
+
 
 -- Employee and their manager
 SELECT
