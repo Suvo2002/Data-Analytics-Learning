@@ -1,7 +1,5 @@
 -- ==========================================
 -- Day 10: SQL Subqueries
--- PostgreSQL
-
 
 -- Create Employees Table
 CREATE TABLE employees (
