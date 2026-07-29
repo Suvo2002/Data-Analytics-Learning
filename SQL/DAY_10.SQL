@@ -40,7 +40,7 @@ WHERE salary = (
 
 
 -- Multi Row Subqueries
--- ==========================================
+
 
 -- 3. Employees whose salary is above the average salary
 SELECT *
