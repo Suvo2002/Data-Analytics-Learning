@@ -22,8 +22,7 @@ INSERT INTO employees VALUES
 (7,'Arjun','Finance',55000);
 
 
--- Single Row Subqueries
--- ==========================================
+
 
 -- 1. Employee with the highest salary
 SELECT *
