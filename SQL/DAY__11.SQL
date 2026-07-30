@@ -58,8 +58,8 @@ WITH dept_salary AS (
 )
 SELECT e.emp_name,
     e.department,
-       e.salary,
-       d.avg_salary
+    e.salary,
+    d.avg_salary
 FROM employees e
 JOIN dept_salary d
 ON e.department = d.department;
