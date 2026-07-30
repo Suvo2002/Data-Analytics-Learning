@@ -70,13 +70,13 @@ ON e.department = d.department;
 
 WITH dept_avg AS (
     SELECT department,
-           AVG(salary) AS avg_salary
+        AVG(salary) AS avg_salary
     FROM employees
     GROUP BY department
 )
 SELECT e.emp_name,
     e.department,
-       e.salary
+    e.salary
 FROM employees e
 JOIN dept_avg d
 ON e.department = d.department
