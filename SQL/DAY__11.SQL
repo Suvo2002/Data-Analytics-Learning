@@ -116,7 +116,7 @@ FROM emp;
 -- 2. Department-wise maximum salary
 WITH max_salary AS (
     SELECT department,
-           MAX(salary) AS highest_salary
+        MAX(salary) AS highest_salary
     FROM employees
     GROUP BY department
 )
