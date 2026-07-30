@@ -52,7 +52,7 @@ FROM dept_salary;
 
 WITH dept_salary AS (
     SELECT department,
-           AVG(salary) AS avg_salary
+        AVG(salary) AS avg_salary
     FROM employees
     GROUP BY department
 )
