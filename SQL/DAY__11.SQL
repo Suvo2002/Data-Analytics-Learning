@@ -84,7 +84,7 @@ WHERE e.salary > d.avg_salary;
 
 -- ==========================================
 -- Multiple CTEs
--- ==========================================
+
 
 WITH
 high_salary AS (
