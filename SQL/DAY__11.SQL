@@ -75,7 +75,7 @@ WITH dept_avg AS (
     GROUP BY department
 )
 SELECT e.emp_name,
-       e.department,
+    e.department,
        e.salary
 FROM employees e
 JOIN dept_avg d
