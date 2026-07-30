@@ -57,7 +57,7 @@ WITH dept_salary AS (
     GROUP BY department
 )
 SELECT e.emp_name,
-       e.department,
+    e.department,
        e.salary,
        d.avg_salary
 FROM employees e
