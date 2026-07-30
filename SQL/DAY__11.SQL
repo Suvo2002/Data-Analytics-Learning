@@ -82,7 +82,7 @@ JOIN dept_avg d
 ON e.department = d.department
 WHERE e.salary > d.avg_salary;
 
--- ==========================================
+
 -- Multiple CTEs
 
 
