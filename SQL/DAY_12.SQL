@@ -134,7 +134,7 @@ WHERE rn = 1;
 SELECT *
 FROM (
     SELECT *,
-           DENSE_RANK() OVER(
+        DENSE_RANK() OVER(
                ORDER BY salary DESC
            ) AS dr
     FROM employees
