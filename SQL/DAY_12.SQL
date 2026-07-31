@@ -113,7 +113,7 @@ FROM employees;
 SELECT *
 FROM (
     SELECT *,
-           ROW_NUMBER() OVER(ORDER BY salary DESC) AS rn
+        ROW_NUMBER() OVER(ORDER BY salary DESC) AS rn
     FROM employees
 ) t
 WHERE rn <= 3;
