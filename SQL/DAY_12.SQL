@@ -54,7 +54,7 @@ SELECT
     DENSE_RANK() OVER(ORDER BY salary DESC) AS dense_rank
 FROM employees;
 
--- ==========================================
+
 -- PARTITION BY
 -- ==========================================
 
