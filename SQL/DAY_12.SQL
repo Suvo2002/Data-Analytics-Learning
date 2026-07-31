@@ -125,7 +125,7 @@ FROM (
         ROW_NUMBER() OVER(
             PARTITION BY department
             ORDER BY salary DESC
-           ) AS rn
+        ) AS rn
     FROM employees
 ) t
 WHERE rn = 1;
