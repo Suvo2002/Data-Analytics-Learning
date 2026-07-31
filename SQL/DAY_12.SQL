@@ -123,8 +123,8 @@ SELECT *
 FROM (
     SELECT *,
         ROW_NUMBER() OVER(
-               PARTITION BY department
-               ORDER BY salary DESC
+            PARTITION BY department
+            ORDER BY salary DESC
            ) AS rn
     FROM employees
 ) t
