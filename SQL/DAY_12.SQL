@@ -135,8 +135,8 @@ SELECT *
 FROM (
     SELECT *,
         DENSE_RANK() OVER(
-               ORDER BY salary DESC
-           ) AS dr
+            ORDER BY salary DESC
+        ) AS dr
     FROM employees
 ) t
 WHERE dr = 2;
