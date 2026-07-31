@@ -56,7 +56,7 @@ FROM employees;
 
 
 -- PARTITION BY
--- ==========================================
+
 
 SELECT
     emp_name,
