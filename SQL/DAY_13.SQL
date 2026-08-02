@@ -84,7 +84,7 @@ DROP VIEW high_salary_employees;
 
 
 -- Practice Queries
--- ==========================================
+
 
 -- 1. Create a view for IT employees
 CREATE VIEW it_employees AS
