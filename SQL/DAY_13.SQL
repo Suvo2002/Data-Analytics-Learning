@@ -82,7 +82,7 @@ SELECT * FROM employee_details;
 
 DROP VIEW high_salary_employees;
 
--- ==========================================
+
 -- Practice Queries
 -- ==========================================
 
