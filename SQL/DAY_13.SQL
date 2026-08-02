@@ -70,8 +70,8 @@ CREATE OR REPLACE VIEW employee_details AS
 SELECT emp_id,
     emp_name,
     department,
-       salary,
-       city
+    salary,
+    city
 FROM employees;
 
 SELECT * FROM employee_details;
