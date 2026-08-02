@@ -97,7 +97,7 @@ SELECT * FROM it_employees;
 -- 2. Create a view for employees from Kolkata
 CREATE VIEW kolkata_employees AS
 SELECT emp_name,
-       department
+    department
 FROM employees
 WHERE city = 'Kolkata';
 
@@ -106,7 +106,7 @@ SELECT * FROM kolkata_employees;
 -- 3. Create a department salary summary view
 CREATE VIEW dept_salary_summary AS
 SELECT department,
-       SUM(salary) AS total_salary
+    SUM(salary) AS total_salary
 FROM employees
 GROUP BY department;
 
