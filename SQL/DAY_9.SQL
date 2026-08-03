@@ -99,7 +99,7 @@ JOIN employees m
 ON e.manager_id = m.emp_id
 WHERE m.emp_name = 'Sourav';
 
--- Every employee with every project
+-- Every employee with every project 
 SELECT
     e.emp_name,
     p.project_name
