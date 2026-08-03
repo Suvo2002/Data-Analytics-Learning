@@ -80,7 +80,7 @@ CALL delete_employee(5);
 
 SELECT * FROM employees;
 
--- ==========================================
+
 -- Procedure 5: Increase Salary by Percentage
 
 
