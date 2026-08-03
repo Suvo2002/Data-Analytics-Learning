@@ -67,7 +67,7 @@ SELECT * FROM employees;
 
 -- ==========================================
 -- Procedure 4: Delete Employee
--- ==========================================
+
 
 CREATE OR REPLACE PROCEDURE delete_employee(IN employee_id INT)
 LANGUAGE SQL
