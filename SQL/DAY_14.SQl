@@ -82,7 +82,7 @@ SELECT * FROM employees;
 
 -- ==========================================
 -- Procedure 5: Increase Salary by Percentage
--- ==========================================
+
 
 CREATE OR REPLACE PROCEDURE increase_salary(
     IN percent_increase DECIMAL
