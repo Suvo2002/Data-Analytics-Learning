@@ -65,7 +65,7 @@ CALL update_salary(1, 60000);
 -- Verify Update
 SELECT * FROM employees;
 
--- ==========================================
+--
 -- Procedure 4: Delete Employee
 
 
