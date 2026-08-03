@@ -47,7 +47,7 @@ CALL get_department_employees('IT');
 
 
 -- Procedure 3: Update Salary
--- ==========================================
+
 
 CREATE OR REPLACE PROCEDURE update_salary(
     IN employee_id INT,
