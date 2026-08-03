@@ -62,7 +62,7 @@ $$;
 
 CALL update_salary(1, 60000);
 
--- Verify Update
+
 SELECT * FROM employees;
 
 --
