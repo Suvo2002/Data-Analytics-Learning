@@ -10,7 +10,7 @@ CREATE TABLE employees (
     salary DECIMAL(10,2)
 );
 
--- Insert Sample Data
+
 INSERT INTO employees VALUES
 (1,'Rahul','IT',50000),
 (2,'Ananya','HR',45000),
