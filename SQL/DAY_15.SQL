@@ -3,7 +3,6 @@
 -- PostgreSQL
 
 
--- Create Employees Table
 CREATE TABLE employees (
     emp_id INT PRIMARY KEY,
     emp_name VARCHAR(50),
