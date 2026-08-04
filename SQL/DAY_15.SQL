@@ -24,7 +24,7 @@ CREATE TABLE employee_audit (
     action_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- ==========================================
+
 -- Trigger Function for INSERT
 
 CREATE OR REPLACE FUNCTION log_employee_insert()
