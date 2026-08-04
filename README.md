@@ -1,6 +1,6 @@
 # 📊 Data Analytics Learning Journey
 
-Welcome to my **Data Analytics Learning Repository**!
+Welcome to my **Data Analytics Learning Repository**
 
 This repository documents my complete journey from beginner to job-ready Data Analyst. I am learning Data Analytics through hands-on practice, real-world projects, SQL, Python, Excel, Power BI, and statistics.
 
