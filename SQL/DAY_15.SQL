@@ -81,9 +81,7 @@ WHERE emp_id = 3;
 
 SELECT * FROM employee_audit;
 
--- ==========================================
--- Trigger Function for DELETE
--- ==========================================
+-- =======================================
 
 CREATE OR REPLACE FUNCTION log_employee_delete()
 RETURNS TRIGGER
