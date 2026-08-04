@@ -26,7 +26,6 @@ CREATE TABLE employee_audit (
 
 -- ==========================================
 -- Trigger Function for INSERT
--- ==========================================
 
 CREATE OR REPLACE FUNCTION log_employee_insert()
 RETURNS TRIGGER
