@@ -1,7 +1,7 @@
 -- ==========================================
 -- Day 9: SELF JOIN & CROSS JOIN
 -- PostgreSQL
--- ==========================================
+-- ======================================
 
 -- Create Employee Table
 CREATE TABLE employees (
