@@ -1,7 +1,7 @@
 -- ==========================================
 -- Day 15: SQL Triggers
 -- PostgreSQL
--- ==========================================
+
 
 -- Create Employees Table
 CREATE TABLE employees (
