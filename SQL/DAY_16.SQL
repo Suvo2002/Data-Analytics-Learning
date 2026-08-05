@@ -98,7 +98,7 @@ AND city = 'Bangalore';
 
 -- ==========================================
 -- View Query Execution Plan
--- ==========================================
+
 
 EXPLAIN
 SELECT *
