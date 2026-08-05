@@ -73,7 +73,7 @@ DROP INDEX idx_salary;
 
 -- ==========================================
 -- Practice Queries
--- ==========================================
+
 
 -- 1. Find employees in HR
 SELECT *
