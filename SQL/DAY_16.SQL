@@ -67,7 +67,7 @@ WHERE tablename = 'employees';
 
 
 -- Drop an Index
--- ==========================================
+
 
 DROP INDEX idx_salary;
 
