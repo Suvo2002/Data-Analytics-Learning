@@ -97,7 +97,7 @@ WHERE department = 'IT'
 AND city = 'Bangalore';
 
 
--- View Query Execution Plan
+
 
 
 EXPLAIN
