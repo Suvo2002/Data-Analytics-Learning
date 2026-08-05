@@ -57,7 +57,7 @@ FROM employees
 WHERE department = 'IT'
 AND city = 'Mumbai';
 
--- ==========================================
+
 -- List All Indexes
 
 
