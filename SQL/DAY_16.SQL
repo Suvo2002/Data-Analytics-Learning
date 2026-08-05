@@ -59,7 +59,7 @@ AND city = 'Mumbai';
 
 -- ==========================================
 -- List All Indexes
--- ==========================================
+
 
 SELECT indexname, indexdef
 FROM pg_indexes
