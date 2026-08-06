@@ -36,7 +36,7 @@ SELECT
     END AS salary_category
 FROM employees;
 
--- ==========================================
+
 -- CASE with Department
 
 
