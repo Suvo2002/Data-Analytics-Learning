@@ -22,7 +22,7 @@ INSERT INTO employees VALUES
 (6,'Amit','HR',40000,1),
 (7,'Arjun','Finance',55000,3);
 
--- ==========================================
+
 -- Simple CASE
 
 
