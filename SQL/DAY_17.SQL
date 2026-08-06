@@ -1,7 +1,7 @@
 -- ==========================================
 -- Day 17: CASE Expression
 -- PostgreSQL
--- ==========================================
+
 
 -- Create Employees Table
 CREATE TABLE employees (
