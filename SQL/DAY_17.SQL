@@ -24,7 +24,7 @@ INSERT INTO employees VALUES
 
 -- ==========================================
 -- Simple CASE
--- ==========================================
+
 
 SELECT
     emp_name,
