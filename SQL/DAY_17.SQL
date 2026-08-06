@@ -53,7 +53,7 @@ FROM employees;
 
 
 -- CASE with Experience
--- ==========================================
+
 
 SELECT
     emp_name,
