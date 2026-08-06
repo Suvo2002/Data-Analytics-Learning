@@ -51,7 +51,7 @@ SELECT
     END AS department_type
 FROM employees;
 
--- ==========================================
+
 -- CASE with Experience
 -- ==========================================
 
