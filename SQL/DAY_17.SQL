@@ -37,7 +37,7 @@ SELECT
 FROM employees;
 
 
--- CASE with Department
+
 
 
 SELECT
