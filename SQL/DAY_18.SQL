@@ -115,7 +115,6 @@ FROM former_employees
 ORDER BY emp_name;
 
 
--- Practice Queries
 
 
 -- 1. Display all current and former employee names
