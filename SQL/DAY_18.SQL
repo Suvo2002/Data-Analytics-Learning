@@ -114,7 +114,7 @@ FROM former_employees
 
 ORDER BY emp_name;
 
--- ==========================================
+
 -- Practice Queries
 
 
