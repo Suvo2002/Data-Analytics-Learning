@@ -100,7 +100,7 @@ SELECT emp_name, city
 FROM former_employees
 WHERE city = 'Kolkata';
 
--- ==========================================
+
 -- UNION with ORDER BY
 -- ==========================================
 
