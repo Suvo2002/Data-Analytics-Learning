@@ -102,7 +102,7 @@ WHERE city = 'Kolkata';
 
 
 -- UNION with ORDER BY
--- ==========================================
+
 
 SELECT emp_name, department
 FROM employees
