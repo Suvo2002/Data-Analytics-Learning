@@ -162,7 +162,7 @@ SELECT
 FROM employees;
 
 
--- Practice Questions
+
 
 
 -- 1. Display full name in uppercase
