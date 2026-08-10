@@ -133,7 +133,7 @@ FROM employees;
 
 -- ==========================================
 -- Practical Examples
--- ==========================================
+
 
 -- Find employees whose first name has more than 5 characters
 SELECT *
