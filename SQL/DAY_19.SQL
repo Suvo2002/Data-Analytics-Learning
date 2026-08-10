@@ -123,7 +123,7 @@ SELECT
     POSITION('@' IN email) AS at_position
 FROM employees;
 
--- ==========================================
+
 -- 12. STRING CONCATENATION ||
 
 
