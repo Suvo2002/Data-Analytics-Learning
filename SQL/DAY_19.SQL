@@ -161,7 +161,7 @@ SELECT
     LOWER(first_name || '.' || last_name || '@company.com') AS company_email
 FROM employees;
 
--- ==========================================
+
 -- Practice Questions
 
 
