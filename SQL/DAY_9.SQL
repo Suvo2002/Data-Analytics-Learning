@@ -3,6 +3,7 @@
 -- PostgreSQL
 -- ======================================
 
+
 -- Create Employee Table
 CREATE TABLE employees (
     emp_id INT PRIMARY KEY,
