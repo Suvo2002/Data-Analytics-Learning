@@ -125,7 +125,7 @@ FROM employees;
 
 -- ==========================================
 -- 12. STRING CONCATENATION ||
--- ==========================================
+
 
 SELECT
     first_name || ' ' || last_name AS full_name
