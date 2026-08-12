@@ -88,7 +88,7 @@ SELECT *
 FROM employees
 WHERE EXTRACT(YEAR FROM hire_date) = 2020;
 
--- ==========================================
+
 -- 9. Employees hired between two dates
 
 
