@@ -117,7 +117,7 @@ FROM employees;
 
 -- ==========================================
 -- 12. Group employees by hiring year
--- ==========================================
+
 
 SELECT
     EXTRACT(YEAR FROM hire_date) AS hire_year,
