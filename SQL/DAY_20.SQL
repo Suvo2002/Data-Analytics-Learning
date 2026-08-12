@@ -126,7 +126,7 @@ FROM employees
 GROUP BY EXTRACT(YEAR FROM hire_date)
 ORDER BY hire_year;
 
--- ==========================================
+
 -- Practice Questions
 -- ==========================================
 
