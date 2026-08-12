@@ -115,7 +115,7 @@ SELECT
     CURRENT_DATE - hire_date AS days_worked
 FROM employees;
 
--- ==========================================
+
 -- 12. Group employees by hiring year
 
 
