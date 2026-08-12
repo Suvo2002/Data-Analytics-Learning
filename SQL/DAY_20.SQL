@@ -127,8 +127,7 @@ GROUP BY EXTRACT(YEAR FROM hire_date)
 ORDER BY hire_year;
 
 
--- Practice Questions
--- ==========================================
+
 
 -- 1. Find employees hired before 2021
 SELECT *
